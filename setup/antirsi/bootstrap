@@ -1,0 +1,2 @@
+curl --fail --progress-bar https://gist.githubusercontent.com/norm/25f90b35286aa7ad6f9e3490c1f00090/raw/antirsi.sh > /usr/local/bin/antirsi
+chmod 755 /usr/local/bin/antirsi
