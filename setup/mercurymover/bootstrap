@@ -1,0 +1,5 @@
+# allow Mercury Mover to control the computer
+sudo tccutil --insert com.apple.systempreferences
+sudo tccutil --enable com.apple.systempreferences
+sudo tccutil --insert com.heliumfoot.MyWiAgent
+sudo tccutil --enable com.heliumfoot.MyWiAgent
