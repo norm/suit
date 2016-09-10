@@ -1,0 +1,11 @@
+remove Contacts
+remove Maps
+remove Reminders
+remove iBooks
+remove iTunes
+
+add /Applications/Utilities/Terminal.app    after Launchpad     Terminal
+add Things                                  after Terminal
+add nvALT                                   after Things
+add 'Sublime Text'                          after nvALT
+add GitX
