@@ -8,7 +8,8 @@ cask 'nvalt'
 cask 'rowanj-gitx'
 cask 'sublime-text'
 cask 'textmate'
-cask 'things'
+# FIXME reimplement in norm/homebrew-versions
+# cask 'things'
 cask 'vmware-fusion'
 
 mas '1Password', id: 443987910
