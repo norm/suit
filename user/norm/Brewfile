@@ -1,5 +1,6 @@
 brew 'colordiff'
 brew 'fortune'
+brew 'git'
 brew 'hub'
 brew 'lesspipe'
 brew 'phantomjs'
