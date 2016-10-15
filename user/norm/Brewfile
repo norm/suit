@@ -1,5 +1,6 @@
 brew 'colordiff'
 brew 'hub'
+brew 'lesspipe'
 brew 'phantomjs'
 brew 'the_silver_searcher'
 brew 'watch'
