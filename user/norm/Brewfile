@@ -1,3 +1,4 @@
+brew 'colordiff'
 brew 'phantomjs'
 brew 'the_silver_searcher'
 brew 'watch'
