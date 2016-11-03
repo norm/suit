@@ -16,6 +16,7 @@ cask 'rowanj-gitx'
 cask 'sublime-text'
 cask 'textmate'
 cask 'things'
+cask 'vagrant'
 cask 'vmware-fusion'
 
 mas '1Password', id: 443987910
