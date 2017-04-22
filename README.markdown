@@ -22,11 +22,18 @@ Once logged in, open System Preferences and:
 Log out, then back in as `norm`, signing into iCloud during the finalisation.
 
 
-## Terminal preferences
+## Copy preferences
 
+Some preferences are hard to set using `defaults write`, so copy the files wholesale.
+Run this command, then immediately log out:
 ```
-(nohup sh -c 'sleep 10; cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/kit/com.apple.Terminal.plist ~/Library/Preferences; say done' &) && kill -9 $$
+nohup sh -c '
+    sleep 20;
+    cp ~/Library/Mobile\ Documents/com~apple~CloudDocs/kit/prefs/* ~/Library/Preferences
+' &
 ```
+
+Only log back in after waiting for more than 20 seconds to have passed.
 
 ## Software installation and environment customisation 
 
