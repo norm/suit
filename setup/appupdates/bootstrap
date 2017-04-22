@@ -1,0 +1,2 @@
+curl --fail --progress-bar https://gist.githubusercontent.com/norm/ec158737655d5b0605054260522e2f72/raw/51c4ef2f5196ce1c33b5d1c4452e83c8fd507594/appupdates-notify.sh > /usr/local/bin/appupdates-notify
+chmod 755 /usr/local/bin/appupdates-notify
