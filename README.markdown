@@ -60,5 +60,10 @@ Run suited again, now installed to `/usr/local/bin`, with the same environment s
 
 ```
 export ...
-suited github:norm/suit:main.conf
+
+# set up the mac with my personal settings
+suited github:norm/suit:preferences.conf
+
+# lastly, check out common code libraries I use and refer to
+suited github:norm/suit:code_library.conf
 ```
