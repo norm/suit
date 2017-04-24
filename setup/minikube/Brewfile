@@ -1,0 +1,4 @@
+brew 'docker-machine-driver-xhyve'
+brew 'kubectl'
+
+cask 'minikube'
