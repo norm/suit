@@ -50,7 +50,20 @@ export GIT_EMAIL='norm@201created.com'
 export GIT_NAME='Mark Norman Francis'
 export HOST=`hostname -s`
 curl -O https://raw.githubusercontent.com/norm/suited/master/suited.sh 
-bash suited.sh github:norm/suit:main.conf
+bash suited.sh github:norm/suit:initial_setup.conf
 ```
 
 Reboot once suited has run successfully all the way through.
+
+
+Run suited again, now installed to `/usr/local/bin`, with the same environment settings:
+
+```
+export ...
+
+# set up the mac with my personal settings
+suited github:norm/suit:preferences.conf
+
+# lastly, check out common code libraries I use and refer to
+suited github:norm/suit:code_library.conf
+```
