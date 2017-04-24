@@ -1,3 +1,5 @@
+cask 'minecraft'
+
 mas 'Command & Conquer™: Generals Deluxe Edition', id: 912423770
 mas 'Galaxy on Fire 2™ Full HD', id: 452222956
 mas 'Homeworld Remastered Collection', id: 991804858
