@@ -3,8 +3,9 @@ remove Maps
 remove Reminders
 remove iBooks
 remove iTunes
+remove Launchpad
 
-add /Applications/Utilities/Terminal.app    after Launchpad     Terminal
+add /Applications/Utilities/Terminal.app    after Siri         Terminal
 add Things                                  after Terminal
 add nvALT                                   after Things
 add 'Sublime Text'                          after nvALT
