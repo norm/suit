@@ -9,7 +9,6 @@ brew 'watch'
 
 cask 'dropbox'
 cask 'launchbar'
-cask 'mercurymover'
 cask 'ngrok'
 cask 'nvalt'
 cask 'rowanj-gitx'
