@@ -1,0 +1,7 @@
+Brewfile
+
+loginitem   Hammerspoon
+
+clone       github:norm/hammerspoon-config      ~/etc/hammerspoon
+symlink     ~/etc/hammerspoon/$HOST.lua         ~/etc/hammerspoon/init.lua
+symlink     ~/etc/hammerspoon                   ~/.hammerspoon
